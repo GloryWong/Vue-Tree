@@ -49,7 +49,7 @@ export default {
   watch: {
     loadStatus(val) {
       if (this.setting.lazyload && val === 1) {
-        this.displayLabel = this.label + " loading...";
+        this.displayLabel = this.label + " Loading...";
       } else {
         this.displayLabel = this.label;
       }
